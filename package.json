@@ -1,0 +1,30 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denisr2211/udemy_Node.js.git"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Den",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denisr2211/udemy_Node.js/issues"
+  },
+  "homepage": "https://github.com/denisr2211/udemy_Node.js#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
